@@ -1,0 +1,3 @@
+Para poder encriptar y desencriptar la imagen use CryptoJS, en este caso para poder correr el codigo primero instale las dependencias con npm install, posteriormente es necesario que verifique si desea encriptar o desencriptar la imagen, para esto cambie manualmente el valor de la variable ENCRYPT a true o false.
+cuando ENCRYPT es igual a true, se guarda un txt con la imagen encriptada en la carpeta encrypted
+cuando ENCRYPT es igual a false, se guarda un jpg con la imagen desencriptada en la carpeta unencrypted. pude borrar las fotos antes de correr el programa para que vea que se crean las imagenes, no puede borrar la imagen llamada image.jpg, ya que esta es la que se encripta
